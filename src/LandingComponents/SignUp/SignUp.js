@@ -51,7 +51,7 @@ function SignUp() {
   }
 
   return (
-    <div style={{backgroundColor:"black",color:"white",width:"fit-content",margin:"20px",padding:"20px",borderRadius:"10px"}}>
+    <div style={{backgroundColor:"black",color:"white",width:"fit-content",margin:"20px",padding:"20px",borderRadius:"10px",border:"1px solid white"}}>
         <label style={{fontSize:"30px",color:"gold"}}>Sign up</label>
         <button style={{backgroundColor:"white",border:"1px solid black",borderRadius:"10px",padding:"5px",left:"80px",position:"relative"}}     onClick={()=>{navigate('/login')}}>Login</button>
         <form>

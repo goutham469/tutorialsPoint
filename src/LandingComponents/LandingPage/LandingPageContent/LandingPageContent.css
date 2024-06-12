@@ -1,0 +1,14 @@
+.webIconStyles{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(35, 35, 35);
+    padding: 10px;
+    border-radius: 10px;
+}
+.webIconStyles:hover{
+    /* width: 110px;
+    height: 110px;
+    margin: 10px; */
+    background-color: rgb(68, 68, 68);
+}
