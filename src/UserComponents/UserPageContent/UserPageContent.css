@@ -1,0 +1,16 @@
+.smallBox{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(84, 84, 84);
+    padding: 10px;
+    font-weight: 800;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.smallBox:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.mainBoxChild{
+    margin: 5em;
+}

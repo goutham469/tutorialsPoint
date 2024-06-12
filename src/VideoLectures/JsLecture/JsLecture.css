@@ -1,0 +1,30 @@
+.videoChangeButton{
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+
+    margin: 5px;
+}
+.videoChangeButton:hover{
+    background-color: rgb(247, 247, 247);
+    color: rgb(255, 0, 0);
+}
+.ButtonsScrollingOption {
+    margin: 30px;
+    margin-left: 60px;
+    display: flex;
+    width: 90vw;
+    overflow-x: auto; /* Use auto instead of scroll for better UX */
+    height: 80px;
+    white-space: nowrap; /* Ensure the content doesn't wrap */
+    scrollbar-width: thin; /* For Firefox */
+}
+.videoElementPlay{
+    width: 90vw;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(5, 209, 245),-3px -3px 5px rgb(56, 255, 6);
+}
